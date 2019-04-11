@@ -1,0 +1,19 @@
+{
+  "description": "A sample site using hello-wasm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aevalo/hello-wasm.git"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@aevalo/hello-wasm": "^0.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
