@@ -1,9 +1,14 @@
 const path = require('path');
 module.exports = {
-  entry: "./index.js",
-  output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "index.js",
+  devtool: 'inline-source-map',
+  entry: './index.js',
+  devServer: {
+    host: 'localhost',
+    port: 8080
   },
-  mode: "development"
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'index.js',
+  },
+  mode: 'development'
 };
